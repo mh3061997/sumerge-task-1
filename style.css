@@ -1,0 +1,89 @@
+/* all css rules defined as page is rendered top down  */
+body{
+    margin:0; /* to override broswer defaults*/
+    padding:0;
+    font:15px Arial, Helvetica,sans-serif;
+    color:white;
+}
+#header {
+    background-color: rgb(41, 38, 46);
+    padding:30px;
+    
+    border-bottom: saddlebrown 4px solid;
+}
+#header img{
+    width:100px;
+    height:100px;
+
+}
+#header h1 span{
+    color:saddlebrown;
+}
+#titleres {
+ margin:auto;
+ overflow: hidden;
+ text-align: center;
+ display: inline-block;
+ padding-bottom: 20px;
+}
+
+#main-body {
+    min-height:550px;
+    background: url(background.png) no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding:50px 0px 0px 0px ;
+}
+
+form {
+    margin:auto;
+    overflow:hidden;
+    background-color:rgb(255, 255, 255);
+    width:450px;
+    height:80%;
+    padding:16px;
+    border-radius: 5px;
+}
+form h1,p{
+    color:black;
+    padding:2px;
+    margin:5px 0px;
+}
+form *{
+    border-radius: 5px;
+
+}
+form .boxes{
+    margin:auto;
+}
+form input{
+    padding:10px;
+    background-color: rgb(233, 233, 233);
+    display: block;
+    margin:auto;
+    width:80%;
+}
+#userandpass{
+    margin:0;
+    padding:0px 0px 0px 30px;
+}
+#userandpass input{
+    width:40%;
+    display: inline-block;
+    margin:auto;
+}
+form #submit {
+    background-color: rgb(0, 164, 0);
+    margin:10px auto;
+    width:50%;
+    color:white;
+}
+#footer{
+    border-top: saddlebrown 4px solid;
+    background-color: rgb(41, 38, 46);
+    padding:30px;
+    text-align: center;
+
+}
+
+
